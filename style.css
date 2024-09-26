@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    height: 207vh;
+}
+
+
+header {
+    background: #111;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-left: 20px;
+     color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home {
+    height: 100vh;
+    background: url('pixelcut-export.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.buttons .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buttons .btn:hover {
+    background-color: darkcyan;
+}
+
+
+.information {
+    height: 150vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.image-1, .image-2, .image-3, .image-4 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 20px;
+    width: 48%;
+    border: double;
+   
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    text-align: left;
+    padding: 10px;
+    max-width: 300px; 
+}
+
