@@ -105,3 +105,12 @@ p {
     max-width: 300px; 
 }
 
+table {
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    background-color: blueviolet;
+}
+
