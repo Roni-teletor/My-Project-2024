@@ -71,7 +71,7 @@ nav ul li a {
 
 
 .information {
-    height: 150vh;
+    height: 142vh;
     width: 100%;
     padding: 20px;
 }
@@ -114,3 +114,15 @@ table, th, td {
     background-color: blueviolet;
 }
 
+textarea {
+    width: 15%;
+    height: 20vh;
+    background-color: greenyellow; 
+    margin-left: 70px;
+}
+
+footer {
+    border: 3px solid blue;
+    background-color: gray;
+    height: 5vh;
+}
